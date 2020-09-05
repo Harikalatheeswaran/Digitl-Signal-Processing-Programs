@@ -31,7 +31,7 @@ if choice == '1':
    for i in x_out:
       print(i)
 
-elif choice == '2s':
+elif choice == '2':
    # IDFT
    print('Input the values separated by comma , !')
    a = input('Enter : ')
