@@ -21,7 +21,7 @@ if choice == '1':
       for n in range(0,N):
          
          e = cmath.exp((-2*pi*n*k*1j)/N)
-         m = complex(round(e.real),round(e.imag))
+         m = complex(round(e.real,1),round(e.imag,1))
          
          x_temp = x_temp + (x[n]*m)
       x_out.append(x_temp)
@@ -47,7 +47,7 @@ elif choice == '2':
       for n in range(0,N):
         
          e = cmath.exp((2*pi*n*k*1j)/N)
-         m = complex(round(e.real),round(e.imag))
+         m = complex(round(e.real,1),round(e.imag,1))
          
          x_temp = x_temp + (x[n]*m)
       x_out.append((x_temp)/N)
