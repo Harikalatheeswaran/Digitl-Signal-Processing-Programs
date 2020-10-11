@@ -1,2 +1,2 @@
-# Discrete-Fourier-Transform
-Using this program one can claculate DFT and IDFT
+# Useful programs for DSP (Digital Signal Processing)
+
